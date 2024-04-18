@@ -1,0 +1,11 @@
+
+import cowsay
+import sys
+
+if len(sys.argv) == 2:
+    # cowsay.cow("hello, "+sys.argv[1])
+    # cowsay.trex("hello, "+sys.argv[1])
+    # cowsay.meow("hello, "+sys.argv[1])
+    # cowsay.turtle("hello, "+sys.argv[1]
+    # cowsay.milk("hello, "+sys.argv[1])
+    cowsay.tux("hello, "+sys.argv[1])
