@@ -1,8 +1,8 @@
 # Metacharacters
 
-- . : any character except a newline
-- * : 0 or more repetitions
-- + : 1 or more repetitions
+- "." : any character except a newline
+- "*" : 0 or more repetitions
+- "+" : 1 or more repetitions
 - ? : 0 or 1 repetition
 - {m} : m repetitions
 - {m,n} : m-n repetitions
@@ -88,13 +88,6 @@ print(x)
 
 - search() : re.search(pattern, string, flags=0)
 
-## Flags
-
-- re.IGNORECASE
-- re.MULTILINE
-- re.DOTALL
-
-
 - match() : re.match(pattern, string, flags=0)
 
 - fullmatch() : re.fullmatch(pattern, string, flags=0)
@@ -102,3 +95,11 @@ print(x)
 - sub() : re.sub(pattern, replace, string, count=0, flags=0)
 
 - findall() : re.findall(pattern, string, flags=0)
+
+## Flags
+
+- re.IGNORECASE
+- re.MULTILINE
+- re.DOTALL
+
+
